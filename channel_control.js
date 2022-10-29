@@ -2,7 +2,7 @@ const { SlashCommandBuilder, PermissionFlagsBits, EmbedBuilder, ComponentType, A
 const ms = require("ms")
 module.exports = {
     cooldown:5,
-    data: new SlashCommandBuilder()
+    data: new SlashCommandBuilder() 
         .setName("channel-status")
         .setDescription("🛠 Channel control options")
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
